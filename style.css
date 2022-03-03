@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+h2 {
+    margin-top: 50px;
+}
+p {
+    line-height: 5px;
+}
+input.text {
+    height: 20px;
+}
+.container {
+    width: 40%;
+    height: 55%;
+    margin-left: 350px;
+    margin-top: 50px;
+    padding: 20px;
+    background-color: violet;
+    border: 5px solid rgb(129, 84, 252);
+    border-radius: 15px;
+}
+input.submit {
+    display: flex;
+    background-color: green;
+    border-right: 4px solid black;
+    border-bottom: 4px solid black;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    color: white;
+    padding: 5px 10px 5px 10px;
+    margin-top: 10px;
+    margin-left: 230px;
+}
+div.container-1 {
+    width: 50%;
+    height: 35%;
+    background-color: rgb(221, 247, 130);
+    padding: 10px;
+    margin-top: 5%;
+    margin-left: 22%;
+    border: 5px dashed rgb(177, 197, 103);
+}
+input.reset {
+    background-color: red;
+    margin-right: 5px;
+}
+input.claim {
+    background-color: green;
+    margin-left: 5px;
+}
+input.reset, input.claim {
+    color: white;
+    padding: 5px;
+    border-right: 4px solid black;
+    border-bottom: 4px solid black;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    margin-bottom: 5px;
+}
+p.discount {
+    font-weight: bold;
+}
